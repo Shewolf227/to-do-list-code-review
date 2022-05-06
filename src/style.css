@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #4f4f4f;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.top {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+.header {
+  padding: 30px 0 50px 0;
+  border-bottom: 1px solid #d0cdcd;
+}
+
+.header h3 {
+  float: left;
+  margin-left: 20px;
+}
+
+.refresh {
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 60%;
+  margin: 30px auto;
+  box-shadow: #d0cdcd -1px -4px 12px 0;
+  max-height: 700px;
+  overflow: scroll;
+}
+
+#to-do-list div {
+  padding: 20px;
+  border-bottom: 1px solid #d0cdcd;
+}
+
+#add-item {
+  width: 100%;
+  border: none;
+  padding: 25px;
+  border-bottom: 1px solid #d0cdcd;
+}
+
+.item-desc {
+  border: none;
+  padding: 10px;
+}
+
+#add-item::placeholder {
+  font-style: italic;
+  color: #d0cdcd;
+}
+
+input[type="checkbox" i] {
+  margin-right: 10px;
+}
+
+.delete {
+  float: right;
+  cursor: pointer;
+  color: red;
+}
+
+input[type=button] {
+  border: none;
+  background: #e8e6e6;
+  padding: 20px;
+  width: 100%;
+  color: #8c8a8a;
+  position: sticky;
+  bottom: 0;
+}
